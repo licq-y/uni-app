@@ -1,0 +1,6 @@
+
+.title{
+	font-size: 30px;
+}
+.uni-media-list-body{height:auto}
+.uni-media-list-text-top{line-height:1.6em}
