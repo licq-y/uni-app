@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "pages/songlist/songlist",
+    "pages/my/my",
+    "pages/play/play"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "音乐播放器",
+    "navigationBarBackgroundColor": "#32BEF0"
+  },
+  "tabBar": {
+    "selectedColor": "#32BEF0",
+    "list": [{
+      "pagePath": "pages/songlist/songlist",
+      "text": "首页",
+      "iconPath":"/images/首页-02.png",
+      "selectedIconPath": "/images/首页-01.png"
+    }, {
+      "pagePath": "pages/my/my",
+      "text": "个人",
+      "iconPath":"/images/个人-02.png",
+      "selectedIconPath": "/images/个人-01.png"
+    }]
+  },
+  "style": "v2",
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

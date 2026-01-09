@@ -1,0 +1,97 @@
+/* pages/songlist/songlist.wxss */
+/* #banner{
+  height: 150rpx;
+} */
+#banner image{
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.list_all view{
+  float: left;
+}
+.list_all{
+  width: 100%;
+  height: 180rpx;
+  /* background-color:#afdfe4; */
+  padding:10rpx 0rpx;
+  box-shadow: 0rpx 2rpx 1rpx #c3c3c3;
+}
+.list_all .list_1{
+  width: 180rpx;
+  height: 160rpx;
+  padding-top:10rpx ;
+  padding-left: 20rpx;
+  /* background-color:hsl(207, 48%, 29%); */
+}
+.list_1 image{
+  width: 160rpx;
+ height: 160rpx;
+ border-radius: 23rpx;
+}
+.list_all .list_2{
+  width: 360rpx;
+  height: 160rpx;
+
+  /* background-color:#c2afe4; */
+}
+.list_all .list_3{
+  width: 180rpx;
+  height: 160rpx;
+ 
+}
+.list_2 view{
+  width: 360rpx;
+  padding-left: 60rpx;
+  padding-top: 20rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+}
+.list_2 .music_name{
+  font-size: 50rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+}
+.list_2 .author{
+  font-size: 25rpx;
+  color: #555;
+}
+.list_3 image{
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 50%;
+  padding-top: 20rpx;
+}
+
+.search{
+  width: 85%;
+  height: 100rpx;
+  background-color: rgb(200, 212, 212);
+  margin: 10rpx auto;
+  border-radius: 80rpx;
+  overflow: hidden;
+}
+.search .text{
+width: 70%;
+height: 100rpx;
+
+padding-left: 10%;
+float: left;
+}
+.search .btn{
+  width: 20%;
+  height: 100rpx;
+
+  float: left;
+}
+.btn image{
+  width: 80%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0; 
+  margin: auto;
+}
